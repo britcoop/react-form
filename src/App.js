@@ -184,16 +184,16 @@ class App extends Component {
                     </div>
                   </form>
                 </div>
-                {/* <div className="formData">
-                  <p>Full name: {this.state.fullName}</p>
-                  <p>Email: {this.state.emailAddress}</p>
-                  <p>Address: {this.state.address}</p>
-                  <p>City: {this.state.city}</p>
-                  <p>Country: {this.state.country}</p>
-                  <p>Province: {this.state.province}</p>
-                  <p>Postal Code: {this.state.postalCode}</p>
-                  <p>Phone: {this.state.phone}</p>
-                </div> */}
+                <div className="formData">
+                  <p>{this.state.fullName}</p>
+                  <p>{this.state.emailAddress}</p>
+                  <p>{this.state.address}</p>
+                  <p>{this.state.city}</p>
+                  <p>{this.state.country}</p>
+                  <p>{this.state.province}</p>
+                  <p>{this.state.postalCode}</p>
+                  <p>{this.state.phone}</p>
+                </div>
              
             </main>
           </div>
