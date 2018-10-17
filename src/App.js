@@ -56,7 +56,6 @@ class App extends Component {
       () => { this.validateField(name, value) });
   }
 
-
   handleSubmit(e) {
     e.preventDefault();
     console.log(this.state);
@@ -180,21 +179,20 @@ class App extends Component {
                       <input type="text" className="form-control" name="phone" id="phone" value={this.state.phone} onChange={this.handleChange} />
                     </div>
                     <div className="form-group">
-                      <input type="submit" className="btn btn-primary" value="Submit" disabled={!this.state.formValid} />
+                      <input type="submit" className="btn btn-primary" value="Submit" disabled={!this.state.formValid}/>
                     </div>
                   </form>
                 </div>
-                <div className="formData">
-                  <p>{this.state.fullName}</p>
+                {/* <div className="formData"> */}
+                  {/* <p>{this.state.fullName}</p>
                   <p>{this.state.emailAddress}</p>
                   <p>{this.state.address}</p>
                   <p>{this.state.city}</p>
                   <p>{this.state.country}</p>
                   <p>{this.state.province}</p>
                   <p>{this.state.postalCode}</p>
-                  <p>{this.state.phone}</p>
-                </div>
-             
+                  <p>{this.state.phone}</p> */}
+                {/* </div> */}
             </main>
           </div>
           
